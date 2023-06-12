@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="conteiner">
+        <div class="pokeimg">  
+            <img src="./assets/pokemon.png" alt="pokemon logo">  
+        </div>
+        <div class="pokemon-card">
+            <h1>ELIGE TU POKÉMON</h1>
+            <label for="pokemonNumber">Ingrese un número de Pokémon:</label>
+            <input type="number" id="pokemonNumber" min="1">
+            <button onclick="buscarPokemon()">Buscar</button>
+        </div>
+        <div id="pokemonContainer" class="container"></div>
+
+    </main>  
+  
+<script src="main.js"></script>
+
+</body>
+</html>
